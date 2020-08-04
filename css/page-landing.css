@@ -24,6 +24,7 @@
 }
 .hero-img{
   width: 100%;
+  text-align: center;
   
 }
 .buttons-container{
@@ -69,5 +70,10 @@
 }
 .total-connections img{
   margin-left: 0.8rem;
+}
+.container-hero-image{
+  display: flex;
+  justify-content: center;
+  height: 100%;
 }
 
