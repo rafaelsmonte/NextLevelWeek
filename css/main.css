@@ -26,7 +26,7 @@
   box-sizing: border-box;
 }
 html, body{
-  height: 90vh;
+  height: 100vh;
 }
 body, input, button, textarea{
   font-weight: 500;
