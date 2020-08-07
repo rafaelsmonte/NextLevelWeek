@@ -24,9 +24,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} 
 html, body{
-  height: 100vh;
+  height: 95vh;
 }
 body, input, button, textarea{
   font-weight: 500;
@@ -40,10 +40,7 @@ body{
   align-items: center;
   justify-content: center;
 }
-#container{
-  width: 90vw;
-  max-width: 700px;
-}
+
 @media (min-width: 700px)
 {
   :root{

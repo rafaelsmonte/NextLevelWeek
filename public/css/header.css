@@ -2,6 +2,7 @@
     background: var(--color-primary);
     display: flex;
     flex-direction: column;
+    margin-bottom: 2.4rem;
 }
 
 .page-header .top-bar-container {
