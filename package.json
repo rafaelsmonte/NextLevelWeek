@@ -23,7 +23,13 @@
         "dotenv": "^8.2.0",
         "express": "^4.17.1",
         "http": "0.0.1-security",
+        "mongoose": "^5.9.28",
+        "nunjucks": "^3.2.2",
         "ts-node-dev": "^1.0.0-pre.56",
         "typescript": "^3.9.7"
+    },
+    "devDependencies": {
+        "@types/mongoose": "^5.7.36",
+        "@types/nunjucks": "^3.1.3"
     }
 }

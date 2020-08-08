@@ -1,8 +1,7 @@
 import http from 'http';
 import app from '../scr/app';
-//require('dotenv').config();
-//const port = normalizePort(process.env.PORT || '3000');
-const port = '3000';
+require('dotenv').config();
+const port = normalizePort(process.env.PORT || '3000');
 const server = http.createServer(app);
 server.listen(port)
 console.log('Servidor rodando na porta: '+port);
