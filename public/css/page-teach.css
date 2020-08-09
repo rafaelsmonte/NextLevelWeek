@@ -3,7 +3,6 @@
     height: 100vh;
 }
 
-
 #page-teach .page-header .header-content {
     margin-bottom: 3.2rem;
 }
@@ -104,7 +103,7 @@
 }
 
 @media (min-width: 700px) {
-    #page-teach main{
+    #page-teach main {
         margin-top: -3.2rem;
     }
     #page-teach #container {
@@ -135,5 +134,11 @@
     #page-teach main footer button {
         margin-top: 0;
         width: 200px;
+    }
+    .input-block:focus-within::after {
+        bottom: 0px;
+    }
+    .textarea-block:focus-within::after {
+        bottom: 5px;
     }
 }

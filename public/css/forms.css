@@ -41,3 +41,10 @@
     right: 1.6rem;
     bottom: 0;
 }
+
+@media(min-width: 1100px) {
+    .input-block:focus-within::after,
+    .textarea-block:focus-within::after {
+        bottom: 30px;
+    }
+}
